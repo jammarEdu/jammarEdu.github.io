@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Formulas Reformatted and Modified with Latex Included",
+    "section": "",
+    "text": "I list all the equations within our file, which section they are included within, as well as the latex code to reformat them and an image showcasing how the new formula should appear in the document."
+  },
+  {
+    "objectID": "index.html#equation-1-section-1.1",
+    "href": "index.html#equation-1-section-1.1",
+    "title": "Formulas Reformatted and Modified with Latex Included",
+    "section": "Equation 1 (section 1.1)",
+    "text": "Equation 1 (section 1.1)\nd = M1 – M2/within group SDs pooled\n\\begin{equation}\nd = \\frac{M_1 - M_2}{\\text{within group \\textit{SD}s pooled}}\n\\end{equation}"
+  },
+  {
+    "objectID": "index.html#equation-2-section-1.1",
+    "href": "index.html#equation-2-section-1.1",
+    "title": "Formulas Reformatted and Modified with Latex Included",
+    "section": "Equation 2 (section 1.1)",
+    "text": "Equation 2 (section 1.1)\nd = M1 – M2/within group SD pooled x (N - 3/N - 2.25) x √N – 2/N\n\\begin{equation}\nd = \\frac{M_1 - M_2}{\\text{within group \\textit{SD}s pooled}}\n\\times \\frac{N - 3}{N - 2.25} \\times \\sqrt{\\frac{N - 2}{N}}\n\\end{equation}"
+  },
+  {
+    "objectID": "index.html#equation-3-section-1.1",
+    "href": "index.html#equation-3-section-1.1",
+    "title": "Formulas Reformatted and Modified with Latex Included",
+    "section": "Equation 3 (section 1.1)",
+    "text": "Equation 3 (section 1.1)\nd = MD /SDD\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\\begin{equation}\nd = \\frac{M_{D}}{SD_{D}}\n\\end{equation}"
+  },
+  {
+    "objectID": "index.html#equation-4-section-1.2",
+    "href": "index.html#equation-4-section-1.2",
+    "title": "Formulas Reformatted and Modified with Latex Included",
+    "section": "Equation 4 (section 1.2):",
+    "text": "Equation 4 (section 1.2):\nSD weighted pooled = √(n1 – 1)SD1 + (n2 – 1)SD2/(n1 – 1) + (n2 – 1)\n\\begin{equation}\nSD_{\\text{weighted pooled}} = \n\\sqrt{\\frac{(n_1-1)\\textit{SD}_1^2 + (n_2-1)\\textit{SD}_2^2}{(n_1-1) + (n_2-1)}}\n\\end{equation}"
+  },
+  {
+    "objectID": "index.html#equation-5-section-1.2",
+    "href": "index.html#equation-5-section-1.2",
+    "title": "Formulas Reformatted and Modified with Latex Included",
+    "section": "Equation 5 (section 1.2):",
+    "text": "Equation 5 (section 1.2):\ng = M1 - M2/SDweighted pooled x (N - 3/N - 2.25) x √N – 2/N\n\\begin{equation}\ng = \\frac{M_1 - M_2}{\\textit{SD}_{\\text{weighted pooled}}} \\times \n\\frac{N - 3}{N - 2.25} \\times \\sqrt{\\frac{N - 2}{N}}\n\\end{equation}"
+  },
+  {
+    "objectID": "index.html#equation-6-section-1.3",
+    "href": "index.html#equation-6-section-1.3",
+    "title": "Formulas Reformatted and Modified with Latex Included",
+    "section": "Equation 6 (section 1.3):",
+    "text": "Equation 6 (section 1.3):\nd = M1 – M2/within group SD pooled x (N - 3/N - 2.25) x √N – 2/N\n\\begin{equation}\nd = \\frac{M_1 - M_2}{\\text{within-group }\\textit{SD}_\\text{pooled}} \\times\n\\frac{N - 3}{N - 2.25} \\times \\sqrt{\\frac{N - 2}{N}}\n\\end{equation}"
+  },
+  {
+    "objectID": "index.html#equation-7-section-1.3",
+    "href": "index.html#equation-7-section-1.3",
+    "title": "Formulas Reformatted and Modified with Latex Included",
+    "section": "Equation 7 (section 1.3)",
+    "text": "Equation 7 (section 1.3)\nReplace the formula with:\n\\begin{equation}\n\\Delta = \\frac{M_1 - M_2}{\\textit{SD}_\\text{control}}\n\\end{equation}"
+  },
+  {
+    "objectID": "index.html#equation-8-section-1.4",
+    "href": "index.html#equation-8-section-1.4",
+    "title": "Formulas Reformatted and Modified with Latex Included",
+    "section": "Equation 8 (section 1.4)",
+    "text": "Equation 8 (section 1.4)\nr = n(Σxy) - (Σx)(Σy)/√[nΣx2 - (Σx)2] [nΣy2 - (Σy)2]\n\\begin{equation}\nr = \\frac{n(\\sum xy) - (\\sum x)(\\sum y)}\n{\\sqrt{[n\\sum x^2 - (\\sum x)^2][n\\sum y^2 - (\\sum y)^2]}}\n\\end{equation}"
+  },
+  {
+    "objectID": "index.html#equation-9-section-1.4",
+    "href": "index.html#equation-9-section-1.4",
+    "title": "Formulas Reformatted and Modified with Latex Included",
+    "section": "Equation 9 (section 1.4)",
+    "text": "Equation 9 (section 1.4)\nd = 2r/√1 − r2\n\\begin{equation}\nd = \\frac{2r}{\\sqrt{1-r^2}}\n\\end{equation}"
+  },
+  {
+    "objectID": "index.html#equations-10-and-11-section-1.5",
+    "href": "index.html#equations-10-and-11-section-1.5",
+    "title": "Formulas Reformatted and Modified with Latex Included",
+    "section": "Equations 10 and 11 (section 1.5)",
+    "text": "Equations 10 and 11 (section 1.5)\nChange both of these equations into a single equation\nd = log(OR)×√3/π or d=log(OR)×3√π\n\\begin{equation}\nd = \\log(OR) \\times \\frac{\\sqrt{3}}{\\pi}\n\\end{equation}"
+  }
+]
