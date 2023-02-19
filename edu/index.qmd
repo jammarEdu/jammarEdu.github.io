@@ -1,0 +1,133 @@
+---
+title: "Formulas Reformatted and Modified with Latex Included"
+format: html
+editor: visual
+---
+
+## Explanation
+I list all the equations within our file, which section they are included within, as well as the latex code to reformat them and an image showcasing how the new formula should appear in the document. 
+
+## Equation 1 (section 1.1)
+d = M1 – M2/within group SDs pooled      
+
+``` latex
+\begin{equation}
+d = \frac{M_1 - M_2}{\text{within group \textit{SD}s pooled}}
+\end{equation}
+```
+<img src="https://latex.codecogs.com/svg.image?d&space;=&space;\frac{M_1&space;-&space;M_2}{\text{within group \textit{SD}s pooled}}" />
+
+## Equation 2 (section 1.1)
+d = M1 – M2/within group SD pooled x (N - 3/N - 2.25) x √N – 2/N    
+
+
+``` latex
+\begin{equation}
+d = \frac{M_1 - M_2}{\text{within group \textit{SD}s pooled}}
+\times \frac{N - 3}{N - 2.25} \times \sqrt{\frac{N - 2}{N}}
+\end{equation}
+```
+
+
+<img src="https://latex.codecogs.com/svg.image?d&space;=&space;\frac{M_1&space;-&space;M_2}{\text{within group \textit{SD}s pooled}}&space;\times&space;\frac{N&space;-&space;3}{N&space;-&space;2.25}&space;\times&space;\sqrt{\frac{N&space;-&space;2}{N}}" title="d = \frac{M_1 - M_2}{\text{within group \textit{SD}s pooled}} \times \frac{N - 3}{N - 2.25} \times \sqrt{\frac{N - 2}{N}}" />
+
+
+## Equation 3 (section 1.1)
+d = MD /SDD    
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+``` latex
+\begin{equation}
+d = \frac{M_{D}}{SD_{D}}
+\end{equation}
+```
+<img src="https://latex.codecogs.com/svg.image?d&space;=&space;\frac{M_{D}}{SD_{D}}" title="d = \frac{M_{D}}{SD_{D}}" />
+
+
+## Equation 4 (section 1.2): 
+SD weighted pooled = √(n1 – 1)SD1 + (n2 – 1)SD2/(n1 – 1) + (n2 – 1)     
+
+
+``` latex
+\begin{equation}
+SD_{\text{weighted pooled}} = 
+\sqrt{\frac{(n_1-1)\textit{SD}_1^2 + (n_2-1)\textit{SD}_2^2}{(n_1-1) + (n_2-1)}}
+\end{equation}
+
+```
+
+<img src="https://latex.codecogs.com/svg.image?SD_{\text{weighted&space;pooled}}&space;=&space;\sqrt{\frac{(n_1-1)\textit{SD}_1^2&space;&plus;&space;(n_2-1)\textit{SD}_2^2}{(n_1-1)&space;&plus;&space;(n_2-1)}}" title="SD_{\text{weighted pooled}} = \sqrt{\frac{(n_1-1)\text{SD}_1^2 + (n_2-1)\text{SD}_2^2}{(n_1-1) + (n_2-1)}}" />
+
+## Equation 5 (section 1.2):
+g = M1 - M2/SDweighted pooled x (N - 3/N - 2.25) x √N – 2/N     
+
+``` latex
+\begin{equation}
+g = \frac{M_1 - M_2}{\textit{SD}_{\text{weighted pooled}}} \times 
+\frac{N - 3}{N - 2.25} \times \sqrt{\frac{N - 2}{N}}
+\end{equation}
+```
+
+<img src="https://latex.codecogs.com/svg.image?g&space;=&space;\frac{M_1&space;-&space;M_2}{\textit{SD}_{\text{weighted&space;pooled}}}&space;\times&space;\frac{N&space;-&space;3}{N&space;-&space;2.25}&space;\times&space;\sqrt{\frac{N&space;-&space;2}{N}}" title="g = \frac{M_1 - M_2}{\textit{SD}_{\text{weighted pooled}}} \times \frac{N - 3}{N - 2.25} \times \sqrt{\frac{N - 2}{N}}" />
+
+## Equation 6 (section 1.3):
+d = M1 – M2/within group SD pooled x (N - 3/N - 2.25) x √N – 2/N    
+
+``` latex
+\begin{equation}
+d = \frac{M_1 - M_2}{\text{within-group }\textit{SD}_\text{pooled}} \times
+\frac{N - 3}{N - 2.25} \times \sqrt{\frac{N - 2}{N}}
+\end{equation}
+```
+
+<img src="https://latex.codecogs.com/svg.image?d&space;=&space;\frac{M_1&space;-&space;M_2}{\text{within-group&space;}\textit{SD}_\text{pooled}}&space;\times&space;\frac{N&space;-&space;3}{N&space;-&space;2.25}&space;\times&space;\sqrt{\frac{N&space;-&space;2}{N}}" title="d = \frac{M_1 - M_2}{\text{within-group }\textit{SD}_\text{pooled}} \times \frac{N - 3}{N - 2.25} \times \sqrt{\frac{N - 2}{N}}" />
+
+
+## Equation 7 (section 1.3)
+Replace the formula with: 
+
+``` latex
+\begin{equation}
+\Delta = \frac{M_1 - M_2}{\textit{SD}_\text{control}}
+\end{equation}
+```
+
+<img src="https://latex.codecogs.com/svg.image?\Delta&space;=&space;\frac{M_1&space;-&space;M_2}{\textit{SD}_\text{control}}" title="\Delta = \frac{M_1 - M_2}{\textit{SD}_\text{control}}" />
+
+
+## Equation 8 (section 1.4)
+r = n(Σxy) - (Σx)(Σy)/√[nΣx2 - (Σx)2] [nΣy2 - (Σy)2]
+
+``` latex
+\begin{equation}
+r = \frac{n(\sum xy) - (\sum x)(\sum y)}
+{\sqrt{[n\sum x^2 - (\sum x)^2][n\sum y^2 - (\sum y)^2]}}
+\end{equation}
+```
+
+<img src="https://latex.codecogs.com/svg.image?r&space;=&space;\frac{n(\sum&space;xy)&space;-&space;(\sum&space;x)(\sum&space;y)}{\sqrt{[n\sum&space;x^2&space;-&space;(\sum&space;x)^2][n\sum&space;y^2&space;-&space;(\sum&space;y)^2]}}" title="r = \frac{n(\sum xy) - (\sum x)(\sum y)}{\sqrt{[n\sum x^2 - (\sum x)^2][n\sum y^2 - (\sum y)^2]}}" />
+
+## Equation 9 (section 1.4)
+d = 2r/√1 − r2 
+
+``` latex
+\begin{equation}
+d = \frac{2r}{\sqrt{1-r^2}}
+\end{equation}
+```
+
+<img src="https://latex.codecogs.com/svg.image?d&space;=&space;\frac{2r}{\sqrt{1-r^2}}" title="d = \frac{2r}{\sqrt{1-r^2}}" />
+
+## Equations 10 and 11 (section 1.5)
+<b>Change both of these equations into a single equation</b>
+
+d = log(OR)×√3/π  or  d=log(OR)×3√π  
+
+``` latex
+\begin{equation}
+d = \log(OR) \times \frac{\sqrt{3}}{\pi}
+\end{equation}
+```
+
+
+<img src="https://latex.codecogs.com/svg.image?d&space;=&space;\log(OR)&space;\times&space;\frac{\sqrt{3}}{\pi}" title="d = \log(OR) \times \frac{\sqrt{3}}{\pi}" />
